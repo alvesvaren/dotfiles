@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-alias dotfiles="git --git-dir $HOME/.cfg --work-tree=$HOME"
+alias dotfiles="git --git-dir $HOME/.cfg/.git --work-tree=$HOME"
 cd $HOME/.cfg
 
 dotfiles config --local status.showUntrackedFiles no
